@@ -1,11 +1,15 @@
 # decouverte-Algorithmique
 
 1. Faites une recherche sur ce qu'est l'algorithmique
+	- pendant 10 minutes
+	- après les 10 minutes faites une restitution orale de ce que vous avez trouvé tous ensemble
+	- ok maintenant c'est parti ...
 
-2. Algorithme de recherche 
+2. Faire un algorithme de recherche 
 	- Consignes
 		- L'exercice peut être fait en Javascript et/ou en PHP
 		- Ne pas utiliser les fonctions de recherche fourni avec le langage
+		- Ne pas chercher la solution de l'algorithme sur internet :-)
 	- Faire votre propre fonction recherche 
 		- qui prendra en parametre un tableau d'entier et l'entier à recherche dans le tableau
 		- qui retournera l'indice correspondant à l'élement du tableau qui contient la chaine recherché
@@ -14,7 +18,7 @@
 		- en cherchant un entier qui se trouve au début et un autre à la fin pour voir les temps d'exécution
 		- Remarque: je vous laisse trouver une astuce pour vous générer ce tableau qui vous permetra de tester votre fonction
 
-3. Algorithme de trie
+3. Faire un algorithme de tri
 	- Consignes ( même que ci-dessus )
 	- Faire votre propre fonction de tri
 		- qui prendra en parametre un tableau ( qui ne sera pas trié )
@@ -25,7 +29,7 @@
 	- Comparez votre manière de faire avec celles des autres apprenants ainsi que la rapidité d'exécution
 	- Faire du Learning by Teaching sans donner la solution
 	
-4. Algorithme de recherche dichotomique
+4. Faire un algorithme de recherche dichotomique
 	- Faire une fonction rechercheDichotomique 
 		- qui prendra en parametre un tableau d'entier ( qui devra être trié comme dans un dictionnaire ) et la valeur de l'élément à rechercher
 		- qui retournera l'indice du tableau correspondant à l'élément recherché
