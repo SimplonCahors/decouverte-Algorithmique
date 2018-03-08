@@ -41,7 +41,7 @@
 		- Vous répetez cette séquence sur la moitié selectionnée jusqu'à ce que vous arriviez à l'élément trouvé
 
 5. Cas pratique: Afficher un tableau avec des sections
-	- Soit le tableau javascript suivant, qui est trié par métiers:
+	- Soit le tableau javascript suivant, qui est trié par métier:
 	``` javascript
 	var tab = [
     {
@@ -89,8 +89,9 @@
         "genre":"femme",
         "nom":"Jeanne"
     },
-]
-	```
+	]
+	``` 
+
 	- Consignes
 		- Faites une fonction afficheTableauSection( tab ) qui affiche le tableau avec une présentation par section en sectionnant sur la première colonne.
 		- On part du principe que le tableau est toujours trié sur la première colonne
@@ -120,7 +121,7 @@
 
 			etc ...
 
-		```
+		``` 
 		- Essayer de réfléchir avec un papier crayon sur l'algorithme à mettre en place
 		- Faites l'exercice avec une seule boucle
 		- Utiliser jsbin pour tester votre algo en JS
