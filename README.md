@@ -39,6 +39,93 @@
 			- s'il est inférieur à la valeur recherchée cela veut dire que l'élément se trouve dans la deuxième moitié
 			- si non il se trouve dans la premiere moitié
 		- Vous répetez cette séquence sur la moitié selectionnée jusqu'à ce que vous arriviez à l'élément trouvé
+
+5. Cas pratique: Afficher un tableau avec des sections
+	- Soit le tableau javascript suivant, qui est trié par métiers:
+	``` javascript
+	var tab = [
+    {
+        "metier":"ingenieur",
+        "genre":"homme",
+        "nom":"Martin"
+    },
+    {
+        "metier":"ingenieur",
+        "genre":"homme",
+        "nom":"Louis"
+    },
+    {
+        "metier":"ingenieur",
+        "genre":"femme",
+        "nom":"Marie"
+    },
+    {
+        "metier":"boulanger",
+        "genre":"homme",
+        "nom":"Loic"
+    },
+    {
+        "metier":"boulanger",
+        "genre":"homme",
+        "nom":"Etienne"
+    },
+    {
+        "metier":"formateur",
+        "genre":"homme",
+        "nom":"Jean"
+    },
+    {
+        "metier":"formateur",
+        "genre":"homme",
+        "nom":"Martin"
+    },
+    {
+        "metier":"formateur",
+        "genre":"femme",
+        "nom":"Louise"
+    },
+    {
+        "metier":"formateur",
+        "genre":"femme",
+        "nom":"Jeanne"
+    },
+]
+	```
+	- Consignes
+		- Faites une fonction afficheTableauSection( tab ) qui affiche le tableau avec une présentation par section en sectionnant sur la première colonne.
+		- On part du principe que le tableau est toujours trié sur la première colonne
+		- Résultat HTML à obtenir:
+		``` html
+			<h2> Metier: Ingénieur </h2>
+			<table>
+				<tr>
+					<th>Nom</th><th>Genre</th>
+				</tr>
+				<tr>
+					<td>Martin</td><td>Homme</td>
+					<td>Louis</td><td>Homme</td>
+					<td>Marie</td><td>Femme</td>
+				</tr>
+			</table>
+			<h2> Metier: Boulanger </h2>
+			<table>
+				<tr>
+					<th>Nom</th><th>Genre</th>
+				</tr>
+				<tr>
+					<td>Loic</td><td>Homme</td>
+					<td>Etienne</td><td>Homme</td>
+				</tr>
+			</table>
+
+			etc ...
+
+		```
+		- Essayer de réfléchir avec un papier crayon sur l'algorithme à mettre en place
+		- Faites l'exercice avec une seule boucle
+		- Utiliser jsbin pour tester votre algo en JS
+	- [ Exemple de solution ](affiche_tableau.js)
+
 		
 
 	
