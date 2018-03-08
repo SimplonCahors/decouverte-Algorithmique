@@ -39,6 +39,7 @@
 			- s'il est inférieur à la valeur recherchée cela veut dire que l'élément se trouve dans la deuxième moitié
 			- si non il se trouve dans la premiere moitié
 		- Vous répetez cette séquence sur la moitié selectionnée jusqu'à ce que vous arriviez à l'élément trouvé
+	- [Voici les deux solutions, préferez la non récursive](https://fr.wikipedia.org/wiki/Recherche_dichotomique)
 
 5. Cas pratique: Afficher un tableau avec des sections
 	- Soit le tableau javascript suivant, qui est trié par métier:
